@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>我的世界</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/head_style.css" />
+    <link rel="stylesheet" type="text/css" href="css/index_style.css" />
+    <script src="bootstrap/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script src="js/sine-waves.min.js" type="text/javascript" charset="utf-8"></script>-->
+    <!--<script src="js/index.js" type="text/javascript" charset="utf-8"></script>-->
+    <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/easypiechar.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.nav.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/index_style.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="bg"><img src="img/dt.jpg" alt="" /></div>
+    <!--导航栏-->
+    <ul id="nav" class="hidden-sm hidden-xs col-md-1">
+        <li class="current"><a href="#head">welcome</a></li>
+        <li><a href="#profile">个人简介</a></li>
+        <li><a href="#skill">专业技能</a></li>
+        <li><a href="#skill-view">技能阅览</a></li>
+        <li><a href="#experience">我的经历</a></li>
+        <li><a href="#works">我的作品</a></li>
+        <li><a href="#footer">联系我</a></li>
+    </ul>
+    <!--返回顶部及音乐-->
+    <div class="toTop"><span class="glyphicon glyphicon-arrow-up"></span></div>
+    <div id="music" class="music">
+        <audio id="music-audio" class="audio" src="" loop="" autoplay="autoplay" preload="auto"></audio>
+        <div class="control">
+            <div class="control-after"><span class="glyphicon glyphicon-music rotate"></span></div>
+        </div>
+    </div>
+    <div class="content">
+        <!--头部-->
+        <div class="head" id="head">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12" id="universe">
+                        <p class="">
+                            <em class="tab-em wow animated bounceInDown">Hello，I am xiaoye01</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第二屏-个人信息-->
+        <div class="profile" id="profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <div class="header wow animated zoomInUp">
+                            <img class="hidden-xs" src="img/handsome.png" alt="" />
+                            <em class="tab-em">个人简介</em>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+                <div class="row myself">
+                    <div class="col-sm-6 col-xs-12 picture">
+                        <img class="wow animated bounceInLeft" src="img/QQ.jpg" />
+                    </div>
+                    <div class="col-sm-6 col-xs-12 information">
+                        <p class="tab-p text-left wow animated bounceInRight">姓名：<span class="tab-span">何光乐</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">性别：<span class="tab-span">男</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">民族：<span class="tab-span">汉族</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">学历：<span class="tab-span">本科</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">现居：<span class="tab-span">长沙</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">籍 贯：<span class="tab-span">湖南</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">毕业院校：<span class="tab-span">河北工程大学</span></p>
+                        <p class="tab-p text-left wow animated bounceInRight">兴趣爱好：<span class="tab-span">IT、运动、看书、乒乓球</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第三屏-个人技能-->
+        <div class="skill" id="skill">
+            <div class="container">
+                <div class="row">
+                    <div class="header row">
+                        <h2 class="tab-h col-xs-12 wow animated bounceIn">专业技能</h2>
+                    </div>
+                    <ul>
+                        <li class="row tab-li">
+                            <div class="theme col-xs-10 col-sm-12 col-md-6 col-lg-3 col-lg-push-3 wow animated bounceInLeft text-center tab-t">
+                                教育历程
+                            </div>
+                            <div class="desc col-xs-10 col-sm-12 col-md-6 col-lg-6 col-lg-push-3 wow animated bounceInRight">
+                                <span class="tab-p wow slideInLeft">河北工程大学（2012.09-2016.06）；</span>
+                                <br />
+                                <span class="time wow slideInRight ">本科；</span>
+                                <p class="tab-p">大学英语四级证书，普通话二乙资格证 ；
+                                    <br />全国计算机一级证、计算机C语言二级证；
+                                </p>
+                            </div>
+                        </li>
+                        <li class="row tab-li">
+                            <div class="theme col-xs-10 col-sm-12 col-md-6 col-lg-3 col-lg-push-3 wow animated zoomInUp text-center tab-t">
+                                专业技能
+                            </div>
+                            <div class="desc col-xs-10 col-sm-12 col-md-6 col-lg-6 col-lg-push-3 wow animated bounceInRight">
+                                <p class="tab-p">
+                                    1、能熟练利用CSS+DIV等来切图布局；
+                                    <br /> 2、熟悉HTML5+CSS3新特性，利用其进行PC端和移动端的项目开发；
+                                    <br /> 3、熟练使用bootstrap来进行响应式布局；
+                                    <br /> 4、熟练使用ajax，使用DOM、JSON等技术来完成ajax数据的显示，同时利用jsonp完成ajax的跨域使用；
+                                    <br /> 5、熟练使用javascript、jQuery来实现页面的交互及动态效果；
+                                    <br /> 6、熟悉AngularJS、VueJ、nodejss等前端框架；
+                                    <br /> 7、熟数使用HBuilder、WebStorm、Sublime等编辑软件；
+                                    <br /> 8、熟悉各大浏览器的兼容处理；
+                                    <br /> 9、熟练使用canvas进行动画的制作；
+                                    <br /> 10、熟悉使用GitHub；
+                                    <br />
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--第四屏-技能掌握-->
+        <div class="skill-view" id="skill-view">
+            <div class="container">
+                <div class="row header">
+                    <div class="col-md-8 col-md-offset-2 text-center wow animated shake">
+                        <h2 class="tab-h">技能阅览</h2>
+                    </div>
+                </div>
+                <!--<div class="row row-pb-md">
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 text-center">
+                            <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div>
+                        </div>
+                    </div>-->
+                <div class="row v-skill">
+                    <div class="col-md-6">
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInLeft">HTML5</span>&nbsp;<span class="value-right wow animated bounceInLeft">90%</span></h3>
+                            <div class="progress wow animated bounceInLeft">
+                                <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;transition: all 2s linear;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInLeft">CSS3</span>&nbsp;<span class="value-right wow animated bounceInLeft">85%</span></h3>
+                            <div class="progress wow animated bounceInLeft">
+                                <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap wow animated bounceInLeft">
+                            <h3><span class="name-left wow animated bounceInLeft">js</span>&nbsp;<span class="value-right">85%</span></h3>
+                            <div class="progress wow animated bounceInLeft">
+                                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInLeft">VueJs</span>&nbsp;<span class="value-right wow animated bounceInLeft">80%</span></h3>
+                            <div class="progress wow animated bounceInLeft">
+                                <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInRight">photoshop</span>&nbsp;<span class="value-right wow wow animated bounceInRight">60%</span></h3>
+                            <div class="progress  wow animated bounceInRight">
+                                <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInRight">jQuery</span>&nbsp;<span class="value-right wow animated bounceInRight">70%</span></h3>
+                            <div class="progress wow animated bounceInRight ">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInRight">Bootstrap</span>&nbsp;<span class="value-right wow animated bounceInRight">85%</span></h3>
+                            <div class="progress wow animated bounceInRight">
+                                <div class="progress-bar  progress-bar-1 progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3><span class="name-left wow animated bounceInRight">AngularJS</span>&nbsp;<span class="value-right wow animated bounceInRight">75%</span></h3>
+                            <div class="progress wow animated bounceInRight">
+                                <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第五屏-经历-->
+        <div class="experience" id="experience">
+            <div class="container">
+                <div class="row animate-box">
+                    <div class="col-md-8 col-md-push-2 col-md-offset-2 text-center fh5co-heading header">
+                        <h2 style="color: #fff;width: 100%;">我的经历</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-md-offset-0">
+                        <ul class="timeline">
+                            <li class="timeline-heading text-center animate-box">
+                                <div>
+                                    <h3 class="wow animated fadeIn">工作经历</h3>
+                                </div>
+                            </li>
+                            <li class="animate-box timeline-unverted">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading wow animated bounceInLeft">
+                                        <h3 class="timeline-title" style="color: #fff;">河北工程大学</h3>
+                                        <span class="company">2012.09-2016.06</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted animate-box">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel wow animated bounceInRight">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title" style="color: #fff;">赣州朝扬网络科技有限公司</h3>
+                                        <span class="company">2016.07-2017.06</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p>
+                                            主要职责：
+                                            <br /> 1、根据设计要求与后端工程师合作完成页面排版布局，实现静态功能；
+                                            <br /> 2、利用js和jQuery等脚本语言配合后端工程师完成脚本工作、前端数据绑定，操作交互；
+                                            <br /> 3、利用css+div来进行页面优化；
+                                            <br /> 4、解决主流浏览器的兼容性问题；
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <br>
+                            <li class="timeline-heading text-center animate-box">
+                                <div>
+                                    <h3 class="wow animated fadeIn">项目经验</h3></div>
+                            </li>
+                            <li class="animate-box timeline-unverted">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel wow animated bounceInLeft">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title" style="color: #fff;">项目一:好莱客新 CRM 系统网页版</h3>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p style="text-align: left;">
+                                            项目介绍：本项目为广州好莱客（Holike）创意家居股份有限公司 CRM 系统的新做，取缔 旧 CRM 系统，完善各项功能；
+                                            <br /> 开发工具：Sublime；
+                                            <br /> 职责描述：布局页面，完善页面功能；
+                                            <br /> 1、参与需求讨论，协助完成需求文档
+                                            <br/> 2、利用 jsp、jstl、bootstrap 等技术，按需求完成页面，完善页面功能
+                                            <br /> 3、利用js和jQuery完成页面的布局和搜索框功能；
+                                            <br /> 4、利用ajax调用数据并显示；
+                                            <br /> 5、解决浏览器的兼容性问题；
+                                            <br /> 5、根据测试同事的反馈，修复bug，并进行页面优化；
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted animate-box">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel wow animated bounceInRight">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title" style="color: #fff;">项目二:赣州市双惠建材有限公司官网</h3>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p style="text-align: left;">
+                                            项目介绍：本项目为真情草家纺的网站建设，该网站主营家纺，吸引投资人加盟；
+                                            <br /> 开发工具：HBuilder；
+                                            <br /> 职责描述：页面的开发；
+                                            <br /> 1、在与产品经理沟通后，运用 less、html 和 css 进行页面开发；
+                                            <br /> 2、利用js和jQuery、ajax完成页面交互功能；
+                                            <br /> 3、利用css3完成页面的动画效果；
+                                            <br /> 4、运用 jsonp 等技术解决跨域问题；
+                                            <br /> 5、解决浏览器的兼容性问题，修复页面的bug；
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="animate-box timeline-unverted">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel wow animated bounceInLeft">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title" style="color: #fff;">项目三:赣州华坚驾校官网手机端</h3>
+                                        <span class="company">2016.03-2017.06</span>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p style="text-align: left;">
+                                            项目介绍：本项目为赣州华坚驾校官网手机端的建设，吸引更多的学车人士；
+                                            <br /> 开发工具：HBuilder；
+                                            <br /> 职责描述：页面的布局；
+                                            <br /> 1、及时与产品经理沟通，快速搭建页面，还原设计图；
+                                            <br /> 2、利用js、jQuery和ajax完成后台数据的获取和显示；
+                                            <br /> 3、利用css3和jQuery完成页面的动画效果；
+                                            <br /> 4、根据测试同事的反馈，修复页面的bug；
+                                            <br /> 5、进行页面优化；
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第六屏-我的作品-->
+        <div class="works" id="works">
+            <div class="container">
+                <div class="header row">
+                    <div class="col-xs-12 text-center">
+                        <h2 class="tab-h wow animated fadeInUp">我的作品</h2>
+                    </div>
+                </div>
+                <div class="row works-view">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12 text-center working ">
+                                <!--<div class="work-link">
+                                        <a href="http://www.shuanghuijc.com/">赣州市双惠建材有限公司官网</a>
+                                    </div>-->
+                                <div class="works-picture wow animated bounceInLeft">
+                                    <div class="pictures">
+                                        <div class="item item1"></div>
+                                        <div class="names">
+                                            <a href="http://www.shuanghuijc.com/">赣州市双惠建材有限公司官网</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 text-center working wow animated fadeInUp">
+                                <div class="works-picture wow animated zoomInDown">
+                                    <div class="pictures">
+                                        <div class="item item2"></div>
+                                        <div class="names">
+                                            <a href="http://www.zqc98.com/">真情草家纺网</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 text-center working wow animated bounceInRight">
+                                <div class="works-picture wow animated bounceInRight">
+                                    <div class="pictures">
+                                        <div class="item item3"></div>
+                                        <div class="names">
+                                            <a href="http://m.gzhjjx.cn/">赣州华坚驾校官网手机端</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--底部-->
+        <div class="foot" id="footer">
+            <div class="container">
+                <div class="row top ">
+                    <div class="col-xs-12 text-center tab-top">联系我</div>
+                </div>
+                <div class="row middle tab-middle ">
+                    <div class="callme col-xs-6  text-center left">
+                        <a href="http://my.csdn.net/">CSDN</a>&nbsp;|&nbsp;
+                        <a href="https://github.com/">GitHub</a>
+                    </div>
+                    <div class="callme col-xs-6  right">
+                        Q Q: 1209236406
+                        <br /> 邮箱：1209236406@qq.com
+                    </div>
+                </div>
+                <div class="row bottom tab-middle ">
+                    <div class="col-xs-12 text-center">
+                        Copyright © 2018 by xiaoye
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
